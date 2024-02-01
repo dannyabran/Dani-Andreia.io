@@ -1,13 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
 
 body{
+    margin: 0;
+    padding: 0;
     font-family: Alex Brush;
     overflow: hidden;
 }
 
 .main{
+    background-image: url("foto.png");
+    background-size: cover;
     width: 100vw;
     height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
 .locais{
@@ -32,4 +38,57 @@ body{
 .title{
     margin-left: 5%;
     font-size: 70px;
+}
+
+.texto{
+    text-align: center;
+    padding: 5%;
+    width: 50%;
+    height: 50%;
+}
+
+p{
+    font-size: 30px;
+}
+
+.nomes{
+    position: absolute;
+    top: 0;
+    left: 40vw;
+    font-size: 40pt;
+}
+
+
+@media only screen and (min-width: 250px) and (max-width: 600px){
+
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: Alex Brush;
+    }
+
+    .main{
+        background-image: url("site.png")!important;
+        background-size: cover;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nomes{
+        position: absolute;
+        top: 0;
+        left: 3vw;
+        font-size: 40pt;
+    }
+
+    .texto{
+        margin-top: 15%;
+        text-align: center;
+        padding: 5%;
+        width: 100%;
+        height: 80%;
+    }
 }
