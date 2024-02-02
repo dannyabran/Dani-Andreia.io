@@ -188,7 +188,7 @@ p{
        }
 
        .button-name2 {
-        position: fixed;
+        position: fixed !important;
         bottom: 5vh;
         left: 30vw;
         align-items: center;
