@@ -7,3 +7,10 @@ new TypeIt("#element", {
   })
   .go()
 });
+
+
+let audio = document.getElementsByTagName('audio');
+
+var play =function() {
+  audio[0].play();
+};
