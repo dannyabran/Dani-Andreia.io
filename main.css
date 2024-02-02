@@ -89,9 +89,6 @@ p{
 }
 
 .nomes{
-    position: absolute;
-    top: 0;
-    left: 40vw;
     font-size: 40pt;
 }
 
@@ -113,21 +110,18 @@ p{
         display: flex;
         flex-direction: column;
         align-items: center;
+        align-content: center;
     }
 
     .nomes{
         text-align: center;
-        position: absolute;
+        margin-top: 8vh;
         max-width: 90vw;
         min-width: 80vw;
-        top: 5vh;
-        left: 10vw;
         font-size: 2.5em;
     }
 
     .texto{
-        margin-top: 15vh;
-        text-align: center;
         width: 95%;
         height: 50vh;
     }
@@ -148,6 +142,7 @@ p{
     }
 
     .button-name {
+        
         align-items: center;
         appearance: none;
         background-color: #FCFCFD;
@@ -203,8 +198,8 @@ p{
         color: #36395A;
         cursor: pointer;
         display: inline-flex;
-        width: 45%;
-        height: 60px;
+        width: 35%;
+        height: 30px;
         justify-content: center;
         line-height: 1;
         list-style: none;
@@ -220,7 +215,7 @@ p{
         touch-action: manipulation;
         white-space: nowrap;
         will-change: box-shadow,transform;
-        font-size: 1.5em;
+        font-size: 1.3em;
        }
        
        .button-name2:focus {
