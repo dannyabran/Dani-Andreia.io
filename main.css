@@ -285,7 +285,7 @@ p{
        .button-play {
         position: absolute ;
         top: 2vh;
-        left: -45vw;
+        left: -43vw;
         align-items: center;
         appearance: none;
         background-color: #FCFCFD;
@@ -296,8 +296,8 @@ p{
         color: #36395A;
         cursor: pointer;
         display: inline-flex;
-        width: 8%;
-        height: 5%;
+        width: 10%;
+        height: 6%;
         justify-content: center;
         line-height: 1;
         list-style: none;
