@@ -188,6 +188,9 @@ p{
        }
 
        .button-name2 {
+        position: fixed;
+        bottom: 5vh;
+        left: 30vw;
         align-items: center;
         appearance: none;
         background-color: #FCFCFD;
